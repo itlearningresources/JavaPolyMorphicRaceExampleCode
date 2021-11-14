@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class RaceCar extends Vehicle implements Movable {
+public class RaceCar extends Vehicle {
 
     private float     distance = 0F;
     private float     lastmove = 0F;

@@ -1,4 +1,4 @@
-public abstract class Vehicle {
+public abstract class Vehicle implements Movable {
     private VehicleCondition condition = null;
 
     protected Vehicle(VehicleCondition vc) {
